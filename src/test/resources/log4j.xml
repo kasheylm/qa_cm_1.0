@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!--  Rolling file log (<name>.log, <name>.log.1 etc.) -->
+	<appender name="file" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${catalina.home}/logs/cm-webservice.log" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="50MB" />
+		<param name="maxBackupIndex" value="20" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+                   value="[%-5p] %d{dd/MM HH:mm:ss.SSS} %c: %m%n" />
+		</layout>
+	</appender>
+
+    <!-- Playtech packages should log DEBUG level-->
+    <logger name="com.playtech.ums.protrack">
+        <level value="debug" />
+    </logger>
+
+ 	<!-- The rest is INFO. File appender is activated-->
+	<root>
+		<priority value="INFO" />
+		<appender-ref ref="file" />
+	</root>
+
+</log4j:configuration>

@@ -1,0 +1,215 @@
+package com.playtech.cm.selenium.campaigns.actions;
+
+import com.playtech.cm.BaseTest;
+import com.playtech.cm.db.DbUnitUtil;
+import com.playtech.cm.pages.dashboard.campaign.CMDashboardPage;
+import com.playtech.cm.pages.dashboard.campaign.CampaignDetailsPage;
+import com.playtech.cm.pages.dashboard.campaign.CampaignTabs;
+import com.playtech.cm.pages.dashboard.campaign.activities.ActivityTabPage;
+import com.playtech.cm.pages.dashboard.campaign.activities.actions.ActionsPage;
+import com.playtech.cm.pages.dashboard.campaign.activities.actions.TestGroupsPage;
+import com.playtech.cm.pages.dashboard.campaign.activities.actions.UpdateCustomFieldsPage;
+import com.playtech.cm.pages.dashboard.campaign.activities.details.ActivityDetailsPage;
+import com.playtech.cm.utils.dataProviders.CampaignData;
+import com.playtech.cm.utils.dataProviders.actions.CustomFieldData;
+import com.playtech.cm.utils.entities.actions.CustomFieldsEntity;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import java.util.List;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
+/**
+ * User: Denis Veselovskiy
+ * Date: 11/28/12, Time: 5:54 PM
+ */
+public class UpdateCustomFieldsTestActivityTest extends BaseTest{
+    CampaignData campaignData;
+    String activityName;
+    String activityID;
+    CustomFieldsEntity expectedCustomFieldsEntity;
+    CustomFieldsEntity actualCustomFieldsEntity;
+    CMDashboardPage cmDashboardPage;
+    CampaignDetailsPage campaignDetailsPage;
+    CampaignTabs campaignTabs;
+    ActivityTabPage activityTab;
+    ActionsPage actionsPage;
+    UpdateCustomFieldsPage updateCustomFieldsPage;
+    ActivityDetailsPage activityDetailsPage;
+    TestGroupsPage testGroupsPage;
+    String testGroupToTest = "(35%) Test Group 1";
+
+    @BeforeMethod
+    public void createNewCampaignWithTestActivity() {
+        //GIVEN
+        DbUnitUtil.clean("demodb-jdbc.properties");
+        campaignData = new CampaignData();
+        cmDashboardPage = goToCMDashboardDirectly();
+        campaignDetailsPage = cmDashboardPage.createCampaign(campaignData);
+        campaignTabs = campaignDetailsPage.clickSave();
+        activityTab = campaignTabs.openActivityTab();
+        activityName = activityTab.getOpenedDetails().getActivityName();
+        activityID = activityTab.getOpenedDetails().getActivityID();
+        actionsPage = activityTab.clickActions();
+        testGroupsPage = actionsPage.clickTestYes();
+        expectedCustomFieldsEntity = new CustomFieldsEntity();
+        actualCustomFieldsEntity = new CustomFieldsEntity();
+    }
+
+    @Test(dataProvider = "validateFieldWithDigits", dataProviderClass = CustomFieldData.class)
+    public void validateFirstCustomFieldWithTestGroupTest(String value) {
+        expectedCustomFieldsEntity.setName("Custom01 (TEXT)");
+        expectedCustomFieldsEntity.setValue(value);
+        //WHEN
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.addAction(testGroupToTest, expectedCustomFieldsEntity.getAction());
+        updateCustomFieldsPage.waitForm();
+        updateCustomFieldsPage.selectField(expectedCustomFieldsEntity.getName());
+        updateCustomFieldsPage.typeFieldValue(value);
+        actionsPage = updateCustomFieldsPage.clickOK();
+        campaignTabs = actionsPage.clickSave();
+        activityTab = campaignTabs.openActivityTab();
+        testGroupsPage = activityTab.clickActionsWithTestGroups();
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.clickEdit(testGroupToTest);
+        actualCustomFieldsEntity = updateCustomFieldsPage.getForm();
+        //THEN
+        assertObjectsEquals(expectedCustomFieldsEntity, actualCustomFieldsEntity);
+    }
+
+    @Test(dataProvider = "validateFieldWithDigits", dataProviderClass = CustomFieldData.class)
+    public void validateMiddleCustomFieldWithTestGroupTest(String value) {
+        expectedCustomFieldsEntity.setName("Custom10 (TEXT)");
+        expectedCustomFieldsEntity.setValue(value);
+        //WHEN
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.addAction(testGroupToTest, expectedCustomFieldsEntity.getAction());
+        updateCustomFieldsPage.waitForm();
+        updateCustomFieldsPage.selectField(expectedCustomFieldsEntity.getName());
+        updateCustomFieldsPage.typeFieldValue(value);
+        actionsPage = updateCustomFieldsPage.clickOK();
+        campaignTabs = actionsPage.clickSave();
+        activityTab = campaignTabs.openActivityTab();
+        testGroupsPage = activityTab.clickActionsWithTestGroups();
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.clickEdit(testGroupToTest);
+        actualCustomFieldsEntity = updateCustomFieldsPage.getForm();
+        //THEN
+        assertObjectsEquals(expectedCustomFieldsEntity, actualCustomFieldsEntity);
+    }
+
+    @Test(dataProvider = "validateFieldWithDigits", dataProviderClass = CustomFieldData.class)
+    public void validateLastCustomFieldWithTestGroupTest(String value) {
+        expectedCustomFieldsEntity.setName("Custom20 (TEXT)");
+        expectedCustomFieldsEntity.setValue(value);
+        //WHEN
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.addAction(testGroupToTest, expectedCustomFieldsEntity.getAction());
+        updateCustomFieldsPage.waitForm();
+        updateCustomFieldsPage.selectField(expectedCustomFieldsEntity.getName());
+        updateCustomFieldsPage.typeFieldValue(expectedCustomFieldsEntity.getValue());
+        actionsPage = updateCustomFieldsPage.clickOK();
+        campaignTabs = actionsPage.clickSave();
+        activityTab = campaignTabs.openActivityTab();
+        testGroupsPage = activityTab.clickActionsWithTestGroups();
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.clickEdit(testGroupToTest);
+        actualCustomFieldsEntity = updateCustomFieldsPage.getForm();
+        //THEN
+        assertObjectsEquals(expectedCustomFieldsEntity, actualCustomFieldsEntity);
+    }
+
+//    Commented because of unusual confirmation.
+//    @Test(dataProvider = "validateEmptyCustomFieldData", dataProviderClass = CustomFieldData.class)
+//    public void validateEmptyCustomFieldWithTestGroupTest(CustomFieldsEntity expectedCustomFieldsEntity, String expectedAlert) {
+//        //WHEN
+//        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.addAction(testGroupToTest, expectedCustomFieldsEntity.getAction());
+//        updateCustomFieldsPage.waitForm();
+//        updateCustomFieldsPage.selectField(expectedCustomFieldsEntity.getName());
+//        updateCustomFieldsPage.typeFieldValue(expectedCustomFieldsEntity.getValue());
+//        //THEN
+//        actionsPage = updateCustomFieldsPage.clickOkAndValidateAlert(expectedAlert);
+//        campaignTabs = actionsPage.clickSave();
+//        activityTab = campaignTabs.openActivityTab();
+//        testGroupsPage =  activityTab.clickActionsWithTestGroups();
+//        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.clickEdit(testGroupToTest);
+//        actualCustomFieldsEntity = updateCustomFieldsPage.getForm();
+//        assertObjectsEquals(expectedCustomFieldsEntity, actualCustomFieldsEntity);
+//    }
+
+    @Test(dataProvider = "validateOkPressingData", dataProviderClass = CustomFieldData.class)
+    public void checkThatValueChangesByClickingOkWithTestGroupTest(CustomFieldsEntity expectedCustomFieldsEntity) {
+        //WHEN
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.addAction(testGroupToTest, expectedCustomFieldsEntity.getAction());
+        updateCustomFieldsPage.waitForm();
+        updateCustomFieldsPage.selectField(expectedCustomFieldsEntity.getName());
+        updateCustomFieldsPage.typeFieldValue(expectedCustomFieldsEntity.getValue());
+        actionsPage = updateCustomFieldsPage.clickOK();
+        campaignTabs = actionsPage.clickSave();
+        activityTab = campaignTabs.openActivityTab();
+        testGroupsPage =  activityTab.clickActionsWithTestGroups();
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.clickEdit(testGroupToTest);
+        actualCustomFieldsEntity = updateCustomFieldsPage.getForm();
+        //THEN
+        assertObjectsEquals(expectedCustomFieldsEntity, actualCustomFieldsEntity);
+    }
+
+    @Test(dataProvider = "validateCancelPressingData", dataProviderClass = CustomFieldData.class)
+    public void valueNotChangedByClickingCancelWithTestGroupTest(CustomFieldsEntity customFieldsEntityToType, CustomFieldsEntity expectedEntity) {
+        //WHEN
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.addAction(testGroupToTest, expectedEntity.getAction());
+        updateCustomFieldsPage.waitForm();
+        updateCustomFieldsPage.selectField(customFieldsEntityToType.getName());
+        updateCustomFieldsPage.typeFieldValue(customFieldsEntityToType.getValue());
+        actionsPage = updateCustomFieldsPage.clickCancel();
+        campaignTabs = actionsPage.clickSave();
+        activityTab = campaignTabs.openActivityTab();
+        testGroupsPage = activityTab.clickActionsWithTestGroups();
+        //THEN
+        assertEquals(testGroupsPage.getAction(testGroupToTest),"Add Action");
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.addAction(testGroupToTest, expectedEntity.getAction());
+        updateCustomFieldsPage.selectField(expectedEntity.getName());
+        actualCustomFieldsEntity = updateCustomFieldsPage.getForm();
+        assertObjectsEquals(expectedEntity, actualCustomFieldsEntity);
+    }
+
+    @Test(dataProvider = "valueSelectingData", dataProviderClass = CustomFieldData.class)
+    public void checkValueSelectingWithTestGroupTest(CustomFieldsEntity customFieldsEntityToType, List<String> testFieldNames) {
+        //WHEN
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.addAction(testGroupToTest, customFieldsEntityToType.getAction());
+        updateCustomFieldsPage.waitForm();
+        updateCustomFieldsPage.selectField(customFieldsEntityToType.getName());
+        updateCustomFieldsPage.typeFieldValue(customFieldsEntityToType.getValue());
+        for(String testFieldName:testFieldNames){
+            customFieldsEntityToType.setName(testFieldName);
+            updateCustomFieldsPage.selectField(testFieldName);
+            actualCustomFieldsEntity = updateCustomFieldsPage.getForm();
+            //THEN
+            assertObjectsEquals(customFieldsEntityToType, actualCustomFieldsEntity);
+        }
+    }
+
+    @Test(dataProvider = "validateDefaultsData", dataProviderClass = CustomFieldData.class)
+    public void checkDefaultsWithTestGroupTest(CustomFieldsEntity expectedCustomFieldsEntity) {
+        //WHEN
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.addAction(testGroupToTest, expectedCustomFieldsEntity.getAction());
+        updateCustomFieldsPage.waitForm();
+        activityTab = campaignTabs.openActivityTab();
+        testGroupsPage = activityTab.clickActionsWithTestGroups();
+        actualCustomFieldsEntity = updateCustomFieldsPage.getForm();
+        //THEN
+        assertObjectsEquals(expectedCustomFieldsEntity, actualCustomFieldsEntity);
+    }
+
+    @Test(dataProvider = "noFieldNameData", dataProviderClass = CustomFieldData.class)
+    public void validateSaveFieldNameNotSelectedWithTestGroupTest(String testValue, String expectedErrorMsg, String expectedWarningMessage) {
+        //WHEN
+        updateCustomFieldsPage = (UpdateCustomFieldsPage) testGroupsPage.addAction(testGroupToTest, expectedCustomFieldsEntity.getAction());
+        updateCustomFieldsPage.waitForm();
+        updateCustomFieldsPage.typeFieldValue(testValue);
+        if(!testValue.equals("")){
+            updateCustomFieldsPage.clickOK();
+        } else {
+            updateCustomFieldsPage.clickOkAndValidateAlert(expectedWarningMessage);
+        }
+        //THEN
+
+        assertTrue(updateCustomFieldsPage.isErrorPresent(expectedErrorMsg));
+    }
+}

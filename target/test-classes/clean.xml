@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE dataset SYSTEM "dbunit-dataset.dtd">
+
+<dataset>
+    <ACTION_SET />
+    <ACTION_CONFIG />
+    <ACTION_CONFIG_DETAIL />
+    <CAMPAIGN />
+    <ACTIVITY />
+    <PLAYER />
+    <ACTION_RESULT />
+    <ACTIVITY_TARGET_GROUP />
+    <PLAYER_DISTRIBUTION />
+    <LANGUAGE />
+    <ACTIVITY_FILTER />
+    <CRON_EXPRESSION />
+    <EXCLUSION_DATE />
+    <ACTIVITY_FREQUENCY />
+    <ACTIVITY_PROPERTY />
+    <CONDITION_SET />
+    <CONDITION />
+    <TAG />
+    <COUNTRY />
+    <COUNTY />
+    <VALUE_DESCRIPTOR />
+    <VALUE_GROUP />
+    <LVALUE />
+    <VALUE_PROVIDER />
+    <VALUE_VALIDATOR />
+    <VALUE_INPUT_TYPE />
+    <OPERATOR />
+</dataset>

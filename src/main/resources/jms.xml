@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="pmsConnectionFactory" class="org.apache.activemq.pool.PooledConnectionFactory">
+        <constructor-arg value="tcp://extdev2-pms1.extdev.ptec:3303"/>
+        <!--<constructor-arg value="failover:(tcp://172.29.49.26:7163)?randomize=false&amp;jms.prefetchPolicy.all=0"/>-->
+        <!--<constructor-arg value="tcp://localhost:61616"/>-->
+        <property name="maxConnections" value="5"/>
+    </bean>
+
+</beans>

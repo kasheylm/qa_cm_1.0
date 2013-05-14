@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<request>
+<activityId>3055</activityId>
+<casinoId>81004</casinoId>
+<casinoName>playtech81004</casinoName>
+<columnKeys>username,losses,net_loss,average_bet,currency</columnKeys>
+<params>
+<param formatter="daysAgoFormatter" name="startdate">5</param>
+<param name="enddate">2013-03-30</param>
+<param name="gamelosscalculation">1</param>
+<param name="clienttype">admin</param>
+<param name="clientplatform">flash</param>
+<param name="viplevel">15</param>
+<param name="game1">wfm</param>
+<param name="losses">999</param>
+<param name="netloss">1</param>
+<param name="suspended">1</param>
+<param name="frozen">1</param>
+<param name="deposits">1</param>
+<param name="averagebet">999</param>
+<param name="wantmail">3</param>
+<param name="invalidmail">3</param>
+<param name="donotsendemail">3</param>
+<param name="internal">0</param>
+</params>
+<playerIdIndex>0</playerIdIndex>
+<reportCode>55671</reportCode>
+</request>

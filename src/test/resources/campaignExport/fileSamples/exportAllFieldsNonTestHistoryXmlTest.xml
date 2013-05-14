@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?><playerActionResults>
+<playerActionResult>
+<username>PROTRACK3</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:06.333+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK9</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:06.511+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>false</wantsPromoPhone>
+<emailInvalid>true</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>true</doNotSendDirectMail>
+<doNotSendCall>true</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK10</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:07.506+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK4</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:08.457+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK2</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:09.451+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>true</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK5</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:10.439+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>false</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>false</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>true</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK15</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:11.477+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK1</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:12.428+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>false</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>true</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK7</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:13.427+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>false</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>true</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK14</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:14.439+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK25</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:24.679+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK18</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:25.684+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK8</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:26.675+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>true</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK16</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:27.688+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK6</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:28.681+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK27</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:29.069+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK19</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:30.695+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK24</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:31.679+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>1</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK17</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:32.686+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK11</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:33.696+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK13</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:34.681+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK20</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:35.677+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK21</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:36.692+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK22</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:37.679+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK29</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:38.677+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK12</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:39.069+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK23</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:40.681+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK28</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:41.674+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK26</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:42.683+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK30</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:43.687+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK30</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-14T15:31:43.187+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+<playerActionResult>
+<username>PROTRACK26</username>
+<activity>Activity 1</activity>
+<action>Update Player Details</action>
+<actionDate>2013-03-18T15:31:43.187+02:00</actionDate>
+<firstName>Protrack</firstName>
+<lastName>Test</lastName>
+<email>roman.karpenko@playtech.com</email>
+<phone>12345678</phone>
+<mobile>3333666</mobile>
+<address>Soola miskipiski</address>
+<city>Suva</city>
+<country>AU</country>
+<zip>12345</zip>
+<currency>USD</currency>
+<wantsPromoEmail>true</wantsPromoEmail>
+<wantsPromoSms>false</wantsPromoSms>
+<wantsPromoMail>true</wantsPromoMail>
+<wantsPromoPhone>true</wantsPromoPhone>
+<emailInvalid>false</emailInvalid>
+<smsInvalid>false</smsInvalid>
+<directMailInvalid>false</directMailInvalid>
+<phoneInvalid>false</phoneInvalid>
+<doNotSendEmail>false</doNotSendEmail>
+<doNotSendSms>true</doNotSendSms>
+<doNotSendDirectMail>false</doNotSendDirectMail>
+<doNotSendCall>false</doNotSendCall>
+<accountFrozen>0</accountFrozen>
+<accountSuspended>false</accountSuspended>
+</playerActionResult>
+</playerActionResults>

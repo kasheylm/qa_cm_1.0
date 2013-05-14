@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE dataset SYSTEM "D:\work\project\QA\src\test\resources\dbunit-dataset.dtd">
+<dataset>
+    <CAMPAIGN_GROUP
+            CAMPAIGN_GROUP_ID="10001"
+            CREATED_BY="creator"
+            CREATED_DATE="2012-01-01 11:06:41.114000000"
+            LABEL="G_10001"
+            NAME="Group 10001"
+            UPDATED_BY="[NULL]"
+            UPDATED_DATE="[NULL]"
+            />
+    <CAMPAIGN
+            CAMPAIGN_ID="10001"
+            APPROVED_BY="tumakha"
+            APPROVED_DATE="2012-01-01 11:06:41.114000000"
+            CATEGORY_NAME="ACQUISITION"
+            CREATED_BY="dedr"
+            CREATED_DATE="2012-01-01 11:06:41.114000000"
+            DESCRIPTION="new campaign"
+            END_DATE="2014-01-01 11:06:41"
+            LABEL="camp.1"
+            LINKS="wtf the links field"
+            NAME="Campaign1"
+            OPT_IN="1"
+            PUBLICATION_DATE="2012-01-01 11:06:41.114000000"
+            START_DATE="2012-01-01 11:06:41"
+            STATUS_NAME="ACTIVE"
+            TEST="0"
+            UPDATED_BY="zxczxc"
+            UPDATED_DATE="2012-01-01 11:06:41.114000000"
+            CONDITION_EXPRESSION="event.payload['param1'] == 'value1' AND player.email != null"
+            GROUP_ID="10001"
+            />
+    <CAMPAIGN
+            CAMPAIGN_ID="10002"
+            APPROVED_BY="tumakha"
+            APPROVED_DATE="2012-01-01 11:06:41.114000000"
+            CATEGORY_NAME="CROSS_MARKETING"
+            CREATED_BY="tumakha"
+            CREATED_DATE="2012-01-01 11:06:41.114000000"
+            DESCRIPTION="new campaign"
+            END_DATE="2014-01-01 11:06:41"
+            LABEL="camp.1"
+            LINKS="links"
+            NAME="Campaign2"
+            OPT_IN="1"
+            PUBLICATION_DATE="2012-01-01 11:06:41.114000000"
+            START_DATE="2012-01-01 11:06:41"
+            STATUS_NAME="ACTIVE"
+            TEST="0"
+            UPDATED_BY="zxczxc"
+            UPDATED_DATE="2012-01-01 11:06:41.114000000"
+            CONDITION_EXPRESSION="player.email.endsWith('@playtech.com')"
+            GROUP_ID="10001"
+            />
+    <CAMPAIGN
+            CAMPAIGN_ID="10003"
+            APPROVED_BY="tumakha"
+            APPROVED_DATE="2012-01-01 11:06:41.114000000"
+            CATEGORY_NAME="CROSS_MARKETING"
+            CREATED_BY="tumakha"
+            CREATED_DATE="2012-01-01 11:06:41.114000000"
+            DESCRIPTION="new campaign"
+            END_DATE="2014-01-01 11:06:41"
+            LABEL="camp.1"
+            LINKS="links"
+            NAME="Campaign3"
+            OPT_IN="1"
+            PUBLICATION_DATE="2012-01-01 11:06:41.114000000"
+            START_DATE="2012-01-01 11:06:41"
+            STATUS_NAME="ACTIVE"
+            TEST="0"
+            UPDATED_BY="zxczxc"
+            UPDATED_DATE="2012-01-01 11:06:41.114000000"
+            CONDITION_EXPRESSION="player.email.endsWith('@playtech.com')"
+            GROUP_ID="10001"
+            />
+    <LANGUAGE LANGUAGE_ID="10001" CODE="en" NAME="English"/>
+    <LANGUAGE LANGUAGE_ID="10002" CODE="ua" NAME="Ukraine"/>
+    <LANGUAGE LANGUAGE_ID="10003" CODE="de" NAME="German"/>
+    <CAMPAIGN_FILTER
+            TYPE="LOGIN"
+            CAMPAIGN_FILTER_ID="10001"
+            DESCRIPTION="description"
+            NAME="name"
+            EVENT_TYPE="aasd"
+            CASINO="MEGACasino"
+            CLIENT_TYPE="MyClientType"
+            PLATFORM="Platform1"
+            CAMPAIGN_ID="10001"
+            LANGUAGE_ID="10001"
+            />
+    <CAMPAIGN_FILTER
+            TYPE="LOGIN"
+            CAMPAIGN_FILTER_ID="10002"
+            DESCRIPTION="description2"
+            NAME="name2"
+            EVENT_TYPE="LOGIN"
+            CASINO="Casino2"
+            CLIENT_TYPE="MyClientType"
+            PLATFORM="Platform1"
+            CAMPAIGN_ID="10002"
+            LANGUAGE_ID="10001"
+            />
+    <ACTION_SET ACTION_SET_ID="10001"/>
+    <ACTION_SET ACTION_SET_ID="10002"/>
+    <ACTION_CONFIG
+            ACTION_CONFIG_ID="10001"
+            BEAN_NAME="emailAction"
+            NAME="Email Action 1"
+            ACTION_TYPE="SEND_EMAIL"
+            ACTION_SET_ID="10001"
+            ACTION_ORDER="1"
+            />
+
+    <ACTION_CONFIG
+            ACTION_CONFIG_ID="10002"
+            BEAN_NAME="emailAction"
+            NAME="Email Action 2"
+            ACTION_TYPE="SEND_EMAIL"
+            ACTION_SET_ID="10002"
+            ACTION_ORDER="1"
+            />
+
+    <ACTION_CONFIG
+            ACTION_CONFIG_ID="10003"
+            BEAN_NAME="updatePlayerAction"
+            NAME="Update Players Info"
+            ACTION_TYPE="UPDATE_PLAYER_PARAMS"
+            ACTION_SET_ID="10001"
+            ACTION_ORDER="2"
+            />
+
+    <ACTION_CONFIG_DETAIL ACTION_CONFIG_DETAIL_ID="10001" CONFIG_KEY="body"     CONFIG_VALUE="'letter-body'"      ACTION_CONFIG_ID="10001" />
+    <ACTION_CONFIG_DETAIL ACTION_CONFIG_DETAIL_ID="10002" CONFIG_KEY="subject"  CONFIG_VALUE="'Email Action 1'"   ACTION_CONFIG_ID="10001" />
+    <ACTION_CONFIG_DETAIL ACTION_CONFIG_DETAIL_ID="10003" CONFIG_KEY="body"     CONFIG_VALUE="'Body of Email Action 2'"      ACTION_CONFIG_ID="10002" />
+    <ACTION_CONFIG_DETAIL ACTION_CONFIG_DETAIL_ID="10004" CONFIG_KEY="subject"  CONFIG_VALUE="'Email Action 2'"   ACTION_CONFIG_ID="10002" />
+
+    <ACTION_CONFIG_DETAIL ACTION_CONFIG_DETAIL_ID="10005" CONFIG_KEY="field.custom01"     CONFIG_VALUE="'new value for the field custom01'" ACTION_CONFIG_ID="10003" />
+
+    <CAMPAIGN_TARGET_GROUP
+            CAMPAIGN_TARGET_GROUP_ID="10001"
+            CONTROL="0"
+            NAME="targetGroup1"
+            PERCENT="100"
+            ACTION_SET_ID="10001"
+            CAMPAIGN_ID="10001"
+            />
+    <CAMPAIGN_TARGET_GROUP
+            CAMPAIGN_TARGET_GROUP_ID="10002"
+            CONTROL="0"
+            NAME="targetGroup21"
+            PERCENT="50"
+            ACTION_SET_ID="10002"
+            CAMPAIGN_ID="10002"
+            />
+    <CAMPAIGN_TARGET_GROUP
+            CAMPAIGN_TARGET_GROUP_ID="10003"
+            CONTROL="1"
+            NAME="targetGroup22"
+            PERCENT="50"
+            ACTION_SET_ID="10002"
+            CAMPAIGN_ID="10002"
+            />
+
+</dataset>

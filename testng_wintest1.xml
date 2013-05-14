@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" configfailurepolicy="continue">
+    <test name="Regression1">
+        <parameter name="login.url" value="http://localhost:8080/cm-ui/login"/>
+		<parameter name="CMDashboard.url" value="http://localhost:8080/cm-ui/CMDashboard?clean=1"/>
+		<parameter name="login" value="cm_automation_2"/>
+		<parameter name="password" value="automation.ims.kiev"/>
+		<parameter name="timeout.short.ms" value="30000"/>
+		<parameter name="timeout.long.s" value="60"/>
+		<parameter name="pullup.interval.ms" value="500"/>
+		<parameter name="isDebug" value="false"/>
+
+        <packages>
+            <package name="com.playtech.cm.selenium.campaigns.export"/>
+            <package name="com.playtech.cm.selenium.campaigns.search"/>
+			<package name="com.playtech.cm.selenium.campaigns.conditions"/>
+        </packages>
+        <classes>
+            <class name="com.playtech.cm.selenium.campaigns.actions.TestGroupsTest"/>
+            <class name="com.playtech.cm.selenium.campaigns.actions.ImsBonusTest"/>
+            <class name="com.playtech.cm.selenium.campaigns.actions.ImsBonusTestActivityTest"/>
+            <class name="com.playtech.cm.selenium.campaigns.actions.UpdateCustomFieldsNonTestActivityTest"/>
+            <class name="com.playtech.cm.selenium.campaigns.actions.UpdateCustomFieldsTestActivityTest"/>
+        </classes>
+        <classes>
+            <class name="com.playtech.cm.jms.PlayerGameLossesRequestTest">
+                <methods>
+                    <include name="firstTest" />
+                </methods>
+            </class>
+        </classes>
+
+
+    </test>
+</suite>
